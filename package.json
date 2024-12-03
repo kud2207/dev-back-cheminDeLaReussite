@@ -1,0 +1,19 @@
+{
+  "name": "dev-back-chemindelareussite",
+  "version": "1.0.0",
+  "description": "creation du serveur back de chemin de la reussite Tech(ExpressJs ; mongoose; Firebase )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.6",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
