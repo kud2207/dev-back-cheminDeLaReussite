@@ -11,5 +11,6 @@ npm start : pour lancer le projet
 - npm i nodemon (^3.1.7") : pour l'ecoute automatique du server;
 - npm i dotenv ("^16.4.6") : pour lire les variale d'environnement '.env';
 - npm i body-parser ("^1.20.3") : pour filtrer les entré de la req de manier simplifié, lire les ficher JSON && x-www-form-urlencoded ;
--npm i cors ( "^2.8.5") : permet a navigateur de pouvoir lire nos Api
+- npm i cors ( "^2.8.5") : permet a navigateur de pouvoir lire nos Api;
+- npm i mongoose ("^8.8.3") : pour connecter avec la BD mongoDB
 
