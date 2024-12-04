@@ -6,6 +6,16 @@ const adminCollection = new Schema(
         nom: String,
         prenom: String,
         age: Number,
+        email: {
+            type: String,
+            unique: true,
+            match: /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/
+        },
+        password: {
+            type: String,
+            minlength: 8,
+
+        },
         statut: {
             type: String,
             enum: ["admin_principal", "admin_secondaire", "enseignant"]
